@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "What Makes a Winning Team? Visualizing Trends in NCAA Basketball\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonte Trader\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/Data Visualization/dataVisualization.html",
+    "href": "posts/Data Visualization/dataVisualization.html",
+    "title": "What Makes a Winning Team? Visualizing Trends in NCAA Basketball",
+    "section": "",
+    "text": "Nate Crain — e-Portfolio Link\nMatthew Goodwin — e-Portfolio Link\nGayle Taylor — e-Portfolio Link"
+  },
+  {
+    "objectID": "posts/Data Visualization/dataVisualization.html#about-the-dataset",
+    "href": "posts/Data Visualization/dataVisualization.html#about-the-dataset",
+    "title": "What Makes a Winning Team? Visualizing Trends in NCAA Basketball",
+    "section": "About the Dataset",
+    "text": "About the Dataset\nFor this project, our team used a comprehensive March Madness dataset compiled from historical NCAA men’s basketball statistics. The dataset includes: - Efficiency metrics (offensive, defensive, adjusted) - Coaching information (current coach, years at program, tenure index) - Tempo and possession statistics - Shooting percentages - Conference information - Post-season outcomes (Final Four, Championship, etc.) The dataset allowed us to explore meaningful numerical and categorical variables, compare team performance across years, and answer four different analytical questions using Excel and data visualization techniques."
+  },
+  {
+    "objectID": "posts/Data Visualization/dataVisualization.html#what-is-the-distribution-of-coaching-experience-in-the-2024-tournament-teams",
+    "href": "posts/Data Visualization/dataVisualization.html#what-is-the-distribution-of-coaching-experience-in-the-2024-tournament-teams",
+    "title": "What Makes a Winning Team? Visualizing Trends in NCAA Basketball",
+    "section": "1. What is the distribution of coaching experience in the 2024 tournament teams?",
+    "text": "1. What is the distribution of coaching experience in the 2024 tournament teams?\nWhy It’s Interesting: We wanted to see whether tournament teams are usually led by long-tenured coaches or if programs with newer coaches are still making the field. The dataset only tracks how long a coach has been at their current school, which is helpful because many coaches switch programs. That means “experience” doesn’t always equal total coaching years, and that difference made this question interesting to explore.\nHow We Used Excel: We filtered the dataset to Season = 2024 and Post-Season Tournament = March Madness. We then used the Active Coaching Length Index column and taking that information, created a histogram with 5-year interval bins.\nHow We Developed the Visual: We saw that using a histogram would showcase the trend that coaches with newer programs were far outpacing long-tenured coaches in the 2024 March Madness tournament. We decided that using the official NCAA tournament colors would be a nice touch.\n\n\n\nHistogram of coaching tenure for 2024 NCAA tournament teams"
+  },
+  {
+    "objectID": "posts/Data Visualization/dataVisualization.html#how-has-the-arkansas-razorbacks-free-throw-percentage-changed-from-20022025",
+    "href": "posts/Data Visualization/dataVisualization.html#how-has-the-arkansas-razorbacks-free-throw-percentage-changed-from-20022025",
+    "title": "What Makes a Winning Team? Visualizing Trends in NCAA Basketball",
+    "section": "2. How has the Arkansas Razorbacks’ free-throw percentage changed from 2002–2025?",
+    "text": "2. How has the Arkansas Razorbacks’ free-throw percentage changed from 2002–2025?\nWhy It’s Interesting: Free throws can swing tournament games, so analyzing long-term accuracy helps reveal whether Arkansas has improved at a fundamental skill over time.\nHow We Used Excel: We filtered the dataset to keep rows where Mapped ESPN Team Name = “Arkansas Razorbacks.” Then we used the FTPct column (free-throw percentage) and arranged the values across the Season variable from 2002–2025. We plotted these in a time series line chart to show how the Razorbacks’ free-throw accuracy has changed over the years.\nVisual Development: We felt that narrowing down to one team would show a better trend and as proud Razorback fans, we focused on our home team. We still kept with the overall NCAA visual. The main adjustments that were needed were cleaning up the graph and getting rid of clutter.\n\n\n\nTime-Series chart of Razorback free throw percentage"
+  },
+  {
+    "objectID": "posts/Data Visualization/dataVisualization.html#what-relationship-exists-between-offensive-and-defensive-adjusted-efficiency-among-ncaa-champions-from-20022024",
+    "href": "posts/Data Visualization/dataVisualization.html#what-relationship-exists-between-offensive-and-defensive-adjusted-efficiency-among-ncaa-champions-from-20022024",
+    "title": "What Makes a Winning Team? Visualizing Trends in NCAA Basketball",
+    "section": "3. What relationship exists between offensive and defensive adjusted efficiency among NCAA champions from 2002–2024?",
+    "text": "3. What relationship exists between offensive and defensive adjusted efficiency among NCAA champions from 2002–2024?\nWhy It’s Interesting: Championship teams typically combine strong offense with elite defense. This visualization helps quantify that pattern.\nHow We Used Excel: We filtered the dataset to include only teams with Post-Season Tournament = March Madness and Tournament Winner = TRUE. For each champion, we used the Adjusted Offensive Efficiency (AdjOE) and Adjusted Defensive Efficiency (AdjDE) columns. We plotted these values as points on a scatterplot to show how offensive and defensive efficiency relate among national champions.\nVisual Development: We highlighted the cluster pattern showing most champions fall near ~120 offensive and ~90 defensive efficiency. We intentionally made the x-axis 70-130 and the y-axis 80-130 to show the full scope of all tournament teams; this allows us to highlight that champions fall a cluster and could be used for forecasting the 2025 champion.\n\n\n\nScatter plot of adjusted offensive vs defensive efficiency for NCAA champions."
+  },
+  {
+    "objectID": "posts/Data Visualization/dataVisualization.html#which-conferences-have-produced-the-most-final-four-teams",
+    "href": "posts/Data Visualization/dataVisualization.html#which-conferences-have-produced-the-most-final-four-teams",
+    "title": "What Makes a Winning Team? Visualizing Trends in NCAA Basketball",
+    "section": "4. Which conferences have produced the most Final Four teams?",
+    "text": "4. Which conferences have produced the most Final Four teams?\nWhy It’s Interesting: Conference strength is a long-running NCAA debate. This chart shows whether “power conferences,” such as the SEC, Big 10, ACC, and others dominate Final Four appearances.\nHow We Used Excel: We filtered the dataset to include all teams in the Post-Season Tournament = March Madness. From there, we pulled the Region column and the Final Four? indicator to count how many teams from each region made the Final Four. We then plotted those totals in a horizontal bar chart to compare Final Four representation across regions.\nVisual Development: We used a horizontal bar chart and sorted conferences in descending order of Final Four appearances so the power conferences are easy to spot at the top. Because there are so many conferences, we kept the labels as abbreviations on the axis and added a link to a full list of conference names and abbreviations for reference College Basketball Conferences – Fox Sports.\n\n\n\nBar chart of Final Four appearances by conference."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Paxton Schroeder",
+    "section": "",
+    "text": "I am a driven Industrial Engineering & Operations Analytics student at the University of Arkansas. I am working on research with the Department of Industrial Engineering and as a teaching assistant for Intro to Industrial Engineering and Probability & Stochastic Processes. Having previously coauthored two publications with the Electrical Engineering Department, I learned to utilize novel 3D printing techniques to create complex geometries out of metal. After I complete my undergraduate degree, I plan to attend graduate school and work in consulting or operations research."
+  },
+  {
+    "objectID": "posts/Stock Trader/stockTrader.html",
+    "href": "posts/Stock Trader/stockTrader.html",
+    "title": "Monte Trader",
+    "section": "",
+    "text": "Nick Colosimo – https://nickcolosimo.quarto.pub/nicholas-colosimo\nChase Stanton – https://chasestanton.quarto.pub/chase-stanton/"
+  },
+  {
+    "objectID": "posts/Stock Trader/stockTrader.html#project-summary-and-skills-used",
+    "href": "posts/Stock Trader/stockTrader.html#project-summary-and-skills-used",
+    "title": "Monte Trader",
+    "section": "Project Summary and Skills Used",
+    "text": "Project Summary and Skills Used\nOur team independently created a website that we can use to make paper trades in the stock market.The user can view open positions, make trades, and analyze potential trades. The code runs a Monte Carlo simulation with Geometric Brownian Motion to extrapolate future prices. This project was written in Java 21 with a lot of custom classes and methods. We used Technical Analysis for Java (TA4J) to do technical analysis on any stock in the IEX feed. The team utilized a Java wrapper for the Alpaca API for stock information imports and order submissions. Finnhub API is used to fetch sector information.We all worked together on the same files, so we had to learn how to use GitHub effectively, without messy merge conflicts."
+  },
+  {
+    "objectID": "posts/Stock Trader/stockTrader.html#project-development-process",
+    "href": "posts/Stock Trader/stockTrader.html#project-development-process",
+    "title": "Monte Trader",
+    "section": "Project Development Process",
+    "text": "Project Development Process\nOur original idea was to create a system that automatically screens a selection of available stocks, takes past price and volume data from that stock, and automatically places an order including entry price, take-profit, and stop-loss. We had to cut down on scope by requiring the user to input a ticker for the program to analyze and then automatically place an order after doing a calculation because we were hitting API rate limits very quickly. There was less documentation than originally thought available, so we had to do extensive reading of the alpaca-java JavaDoc and read the documentation from the Alpaca website written in JavaScript, then make educated guesses about packages and parameters. We had trouble getting the API initialized and making the simulations consistently work. Furthermore, we encountered a null bars error when making trades on the weekend or early on Mondays because the market was closed or recently closed. We fixed this by starting our lookback from a maximum of five months, then moving forward to the present, collecting the most recent one hundred bars. The program is unable to do exactly what we desired without paying for the API, which might be worth it were the program to be used with actual swing trading."
+  },
+  {
+    "objectID": "posts/Stock Trader/stockTrader.html#key-features",
+    "href": "posts/Stock Trader/stockTrader.html#key-features",
+    "title": "Monte Trader",
+    "section": "Key Features",
+    "text": "Key Features\nThe Monte Carlo simulation that uses Geometric Brownian Motion to predict stock prices, incorporating randomness, gives several price predictions at varying market conditions (bull, bear, strong bull, etc.). The output of the analyze button looks like this:And here is the code that makes it work:\n\nI am proud of utilizing the Finnhub API to retrieve sector information. This data is not available via Alpaca API, so we needed to use something else. We utilized Java’s URL object, InputStreamReader(), and the split() method to read the Finnhub data from the web and return the sector for any ticker."
+  },
+  {
+    "objectID": "posts/Stock Trader/stockTrader.html#reflection",
+    "href": "posts/Stock Trader/stockTrader.html#reflection",
+    "title": "Monte Trader",
+    "section": "Reflection",
+    "text": "Reflection\nThroughout working on this project, I have deepened my understanding about how many interdependent classes and methods can work together and how Spring can help classes to share information. We learned a lot about how multiple people should work on code at the same time, utilizing GitHub, which was new. I personally implemented the majority of the code for the Vaadin views, Alpaca API configuration, and converted the arrays of imported price and volume data to TA4J’s BarSeries object. I learned how important it is to push often, to resolve merge conflicts, and how to read documentation to learn packages that are new to me. I feel confident creating complex programs that have many different deliverables. I can utilize an API effectively and work with imported data."
+  }
+]

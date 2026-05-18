@@ -1,0 +1,23 @@
+{
+  "about.qmd": {
+    "about.html": "e4f777eb"
+  },
+  "index.qmd": {
+    "index.html": "88c8f95d"
+  },
+  "posts/Data Visualization/dataVisualization.qmd": {
+    "dataVisualization.html": "01efb898"
+  },
+  "posts/Stock Trader/stockTrader.qmd": {
+    "stockTrader.html": "16768281"
+  },
+  "projects.qmd": {
+    "projects.html": "43d047ad"
+  },
+  "publications.qmd": {
+    "publications.html": "291f0302"
+  },
+  "resume.qmd": {
+    "resume.html": "7004fd7e"
+  }
+}

@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Paxton Schroeder"
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+      - href: resume.qmd
+        text: Resume
+
+      - href: publications.qmd
+        text: Publications
+
+      - text: Posts
+        menu:
+          - href: posts/Data Visualization/dataVisualization.qmd
+            text: Data Visualization
+
+          - href: posts/Stock Trader/stockTrader.qmd
+            text: Stock Trader
+
+format:
+  html:
+    theme: sandstone
+    css: styles.css
+    toc: true
