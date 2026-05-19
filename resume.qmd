@@ -2,6 +2,6 @@
 title: "Resume"
 ---
 
-<iframe width="800" height="900" src="resources/Resume Paxton Schroeder.pdf">
+<iframe width="800" height="1100" src="resources/Resume Paxton Schroeder.pdf">
 
 </iframe>
