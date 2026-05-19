@@ -16,16 +16,12 @@ website:
       - href: publications.qmd
         text: Publications
 
-      - text: Posts
-        menu:
-          - href: posts/Data Visualization/dataVisualization.qmd
-            text: Data Visualization
-
-          - href: posts/Stock Trader/stockTrader.qmd
-            text: Stock Trader
+      - text: Projects
+        href: projects.qmd
 
 format:
   html:
     theme: sandstone
     css: styles.css
-    toc: true
+    
+editor: visual
