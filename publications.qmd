@@ -2,10 +2,10 @@
 title: "Publications"
 ---
 
-<iframe width="800" height="1100" src="resources/An Innovative Design of a Permanent Magnet-Assisted Synchronous Reluctance Motor to Improve Torque Performance for High Speed Applications.pdf">
+<iframe width="800" height="1030" src="resources/An Innovative Design of a Permanent Magnet-Assisted Synchronous Reluctance Motor to Improve Torque Performance for High Speed Applications.pdf">
 
 </iframe>
 
-<iframe width="800" height="1100" src="resources/Novel Design of Permanent Magnet-Assisted Synchronous Reluctance Motor Using Metal Additive Manufacturing Technology.pdf">
+<iframe width="800" height="1125" src="resources/Novel Design of Permanent Magnet-Assisted Synchronous Reluctance Motor Using Metal Additive Manufacturing Technology.pdf">
 
 </iframe>
